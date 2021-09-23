@@ -15,6 +15,9 @@ import numpy as np
 # show stability
 show_stability = True
 
+# print info
+print_info = False
+
 # drawing resolution
 res = 0.001
 
@@ -67,7 +70,7 @@ lw = 1.7 # line width
 
 gold = '#DAB420'
 
-fig1 = plt.figure(1,figsize=(16,4))
+drawing_fig = plt.figure(1,figsize=(16,4))
 
 # nose cone (power series)
 x_nose = np.arange(0,L_nose,res)
@@ -149,16 +152,13 @@ plt.xlim([-5, L+5])
 plt.ylim([-15, 15])
 plt.axis('equal')
 
-plt.show()
-
-#saveas(fig1,'C:\Users\HP\Desktop\VADL\Simulations\TRAJECTORY\Fullscale\Figures\rocket_drawing.png')
-
 # Print Info
 # ----------------------------------------------------------------------------
 
-print(f'\nStatic Stability Margin on Launch Rail: {round(abs(CP0-CG0)/D,2)}\n')
-print(f'CG: {round(CG0,1)} in\n')
-print(f'CP: {round(CP0,1)} in\n')
-print(f'Total Length: {round(L,1)} in\n')
+if print_info:
+    print(f'\nStatic Stability Margin on Launch Rail: {round(abs(CP0-CG0)/D,2)}\n')
+    print(f'CG: {round(CG0,1)} in\n')
+    print(f'CP: {round(CP0,1)} in\n')
+    print(f'Total Length: {round(L,1)} in\n')
 
 

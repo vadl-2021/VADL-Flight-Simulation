@@ -8,7 +8,6 @@ Simulates a dual-deployment rocket flight based on a set of input parameters.
 """
 
 import os
-from parameters import *
 from numpy import sin, cos, tan, arctan2, pi, sqrt, interp, real, mean
 from numpy.linalg import norm
 import matplotlib.pyplot as plt
@@ -640,9 +639,9 @@ i_trim = i_land + 1
 t = t[0:i_trim]
 
 # rocket kinematics
-a = a[0:i_trim]*mps2_to_gs
-ax = ax[0:i_trim]*mps2_to_gs
-az = az[0:i_trim]*mps2_to_gs
+a = a[0:i_trim]*mps2_to_G
+ax = ax[0:i_trim]*mps2_to_G
+az = az[0:i_trim]*mps2_to_G
 v = v[0:i_trim]*m_to_ft
 vx = vx[0:i_trim]*m_to_ft
 vz = vz[0:i_trim]*m_to_ft

@@ -12,7 +12,7 @@ import numpy as np
 import pandas as pd
 from functions import *
 
-# Specify Coniguration Files
+# Specify Configuration Files
 # ============================================================================
 
 # rocket configuration file
@@ -60,21 +60,22 @@ thrust_data_file = mc['thrust_data_file']
 # ----------------------------------------------------------------------------
 
 # inputs
-ft_to_m = 0.3048;
-in_to_m = 0.0254;
-deg_to_rad = 0.0174533;
-lbm_to_kg = 0.453592;
-mph_to_mps = 0.44704;
-in2_to_m2 = 0.00064516;
+ft_to_m = 0.3048
+in_to_m = 0.0254
+deg_to_rad = 0.0174533
+lbm_to_kg = 0.453592
+mph_to_mps = 0.44704
+in2_to_m2 = 0.00064516
 
 # outputs
-mps2_to_gs = 0.101971621;
-m_to_ft = 3.28084;
-m_to_in = 39.3701;
-rad_to_deg = 57.2958;
-N_to_lbf = 0.2248089431;
-J_to_ftlbf = 0.737562;
-kg_to_lbm = 2.20462;
+mps2_to_G = 0.101971621
+m_to_ft = 3.28084
+m_to_in = 39.3701
+rad_to_deg = 57.2958
+N_to_lbf = 0.2248089431
+J_to_ftlbf = 0.737562
+kg_to_lbm = 2.20462
+G_to_fps2 = 32.174
 
 # Hardcoded Data Overrides
 # ----------------------------------------------------------------------------
