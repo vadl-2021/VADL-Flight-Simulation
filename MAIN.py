@@ -24,7 +24,7 @@ from datetime import date
 # Plot Setup
 # ----------------------------------------------------------------------------
 plot_folder = 'Example' # name of subfolder to save flight info/plots in
-s
+
 save_plots = True # save plots as .png files
 
 draw_rocket = True # generate a drawing of the rocket as well as the CP and CG
