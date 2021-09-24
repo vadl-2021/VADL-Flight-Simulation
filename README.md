@@ -1,11 +1,15 @@
 # VADL-Flight-Simulation
 
+## Contact Information for Questions
+- **Email**: ryan.h.burinescu@vanderbilt.edu
+- **Phone**: (914) 907-1020 (text preferred)
+
 ## First Time Setup
 
-1. Download Anaconda to use the Python code.
-Once you have Anaconda, Spyder is the application that can be used to run the code.
+1. Download **Anaconda** to use the Python code.
+Once you have Anaconda, **Spyder** is the application that can be used to run the code.
 
-2. Open Powershell Prompt and use the following commands to install the necessary packages:
+2. Open **Powershell Prompt** and use the following commands to install the necessary packages:
 
 conda install numpy
 
