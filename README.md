@@ -1,9 +1,5 @@
 # VADL-Flight-Simulation
 
-## Contact Information for Questions
-- **Email**: ryan.h.burinescu@vanderbilt.edu
-- **Phone**: (914) 907-1020 (text preferred)
-
 ## First Time Setup
 
 1. Download **Anaconda** to use the Python code.
